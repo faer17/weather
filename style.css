@@ -59,6 +59,16 @@ img{
     color: rgb(29, 177, 252);
 }
 
+@media(max-width: 412px){
+    .container{
+    height: 100vh;
+    }
+   .weather{
+    padding: 10px;
+    width: 100%;
+    }
+}
+
 @media(max-width: 362px){
     .container{
     height: 100vh;
