@@ -60,6 +60,9 @@ img{
 }
 
 @media(max-width: 412px){
+    body{
+        background-size: cover;
+    }
     .container{
     height: 100vh;
     }
@@ -70,6 +73,9 @@ img{
 }
 
 @media(max-width: 362px){
+    body{
+        background-size: cover;
+    }
     .container{
     height: 100vh;
     }
