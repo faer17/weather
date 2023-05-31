@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background:  url(https://source.unsplash.com/1600x900/?uzbekistan);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather{
+    padding: 20px;
+    margin-top: 100px;
+    border: 2px solid rgb(29, 177, 252);
+    backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.4); 
+    border-radius: 10px;
+}
+
+.form-control{
+    border: none;
+    background: transparent;
+    color: rgb(29, 177, 252);
+}
+
+inp::placeholder{
+    color: rgb(29, 177, 252);
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.group{
+    display: flex;
+    gap: 5px;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    color: rgb(29, 177, 252);
+    font-weight: 700;
+}
+
+.btn:hover{
+    color: rgb(29, 177, 252);
+}
+
+.weather_name{
+    display: flex;
+    gap: 60px;
+}
+
+
+.w_info{
+    color: rgb(29, 177, 252);
+}
+
+@media(min-width: 300px){
+    .container{
+        height: 100vh;
+    }
+.weather{
+padding: 10px;
+}
+}
