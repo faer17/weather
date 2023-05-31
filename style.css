@@ -16,7 +16,6 @@ body{
     backdrop-filter: blur(4px);
     background: rgba(255,255,255,0.4); 
     border-radius: 10px;
-    width: 31%;
 }
 
 .inp{
@@ -60,9 +59,9 @@ img{
     color: rgb(29, 177, 252);
 }
 
-@media(min-width: 362px){
+@media(max-width: 362px){
     .container{
-        height: 100vh;
+    height: 100vh;
     }
    .weather{
     padding: 10px;
