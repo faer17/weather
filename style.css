@@ -16,6 +16,7 @@ body{
     backdrop-filter: blur(4px);
     background: rgba(255,255,255,0.4); 
     border-radius: 10px;
+    width: 31%;
 }
 
 .form-control{
@@ -59,11 +60,11 @@ img{
     color: rgb(29, 177, 252);
 }
 
-@media(min-width: 300px){
+@media(min-width: 362px){
     .container{
         height: 100vh;
     }
-.weather{
-padding: 10px;
-}
+   .weather{
+    padding: 10px;
+    }
 }
